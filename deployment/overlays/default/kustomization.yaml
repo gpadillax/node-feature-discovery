@@ -15,3 +15,8 @@ resources:
 components:
 - ../../components/worker-config
 - ../../components/common
+
+images:
+- name: k8s.gcr.io/nfd/node-feature-discovery:v0.10.1
+  newName: quay.io/mgiessing/node-feature-discovery
+  newTag: v0.10.1
